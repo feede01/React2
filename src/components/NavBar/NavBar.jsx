@@ -1,16 +1,17 @@
 import React from 'react'
 import CartWidget from './CartWidget'
 import style from 'styled-components'
+import { Link } from 'react-router-dom'
 
 function NavBar(){
     return (
         <>
             <NavStyles>
-                <h2>TecnologíasCoder</h2>
+                <Link to='/'><h2>TecnologíasCoder</h2></Link>
                 <ul>
-                    <a href="#">Gama Baja</a>
-                    <a href="#">Gama Media</a>
-                    <a href="#">Gama Alta</a>
+                <Link to='/descripcion/Gama baja'><a href="#">Gama Baja</a></Link>
+                <Link to='/descripcion/Gama media'><a href="#">Gama Media</a></Link>
+                <Link to='/descripcion/Gama alta'><a href="#">Gama Alta</a></Link>
                     <a href="#"><CartWidget/></a>
                 </ul>
             </NavStyles>
