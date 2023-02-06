@@ -32,3 +32,33 @@
 .card-detail{
     padding: 12px 8px;
 }
+
+.card:hover .card-favicon{
+    display: block;
+}
+
+.card-favicon{
+    display: none;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: none;
+    margin: 5px 15px;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+    color: #8c8c8e
+}
+
+.card-favicon.favorite{
+    display: block;
+    background-color: rgb(212, 1, 1);
+    color:white;
+}
+
+.main{
+    color:blue;
+}

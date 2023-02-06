@@ -1,11 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, {useContext} from 'react'
+import { cartContext } from '../Context/cartContext'
+import '../Button/button.css'
 
 function CartWidget(){
+    const valueContext = useContext(cartContext);
+    const condicion = valueContext.totalItemsInCart > 0;
     return (
-        <>
-            <Link to='/cart'><button><img src="https://cdn-icons-png.flaticon.com/512/107/107831.png?w=740&t=st=1669500118~exp=1669500718~hmac=a432367ff1363cbe1a37cb7db010839218e69d322a59f0a0d40c63aa087e7ef9" alt="Carrito Compras" /></button></Link>
-        </>
+        <div>
+            <span>🛒</span>
+            {condicion ? <span>{valueContext.totalItemsInCart()}</span> : <></>} 
+        </div>
     )
 }
 

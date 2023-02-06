@@ -1,3 +1,12 @@
+# Proyecto "TecnologíasCoder"
+
+## Proyecto basado en un e-commerce de tecnología, ya sea PCs armadas como también componentes sueltos, donde a la hora de ir al carrito luego de seleccionar el producto, tendrás que ingresar tus datos para poder realizar el envío, que se queda guardado en Firebase.
+
+## Temas vistos y utlizados
+### Se utilizo lo visto en clase, ya sea de parte de ReactJS como HTML, CSS y JavaScript, adaptando la subida de los productos que simulan el e-commerce, a una base de datos utilizada con Firebase.
+
+# Realizado por Federico D'Ortenzio en el desarrollo y cursada de ReactJS en Coderhouse
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -3,13 +3,16 @@ import './App.css';
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import NavBar from "./components/NavBar/NavBar"
 import ItemDetailContainer from './components/ItemListContainer/ItemDetailContainer';
-import CartProvider from './components/Context/CartContext';
-import Cart from './components/Cart/Cart';
+import CartView from './components/Cart/CartViewer';
+import { CartContextProvider } from './components/Context/cartContext';
+//import { exportItemsToFirestore } from './services/firebase';
+
+//<button onClick={ exportItemsToFirestore }>Export</button>
 
 function App() {
   return (
     <>
-    <CartProvider>
+    <CartContextProvider>
       <BrowserRouter>
         <NavBar/>
           <Routes>
@@ -19,9 +22,10 @@ function App() {
               element={<ItemListContainer />}
             />
             <Route path='/item/:id' element={<ItemDetailContainer />} />
+            <Route path='/cart' element={<CartView/>} />
           </Routes>
       </BrowserRouter>
-    </CartProvider>
+    </CartContextProvider>
     </>
   );
 }

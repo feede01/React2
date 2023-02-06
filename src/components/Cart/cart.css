@@ -1,0 +1,24 @@
+.cartTable{
+    border-spacing: 0;
+    border-radius: 5px;
+    border: solid 1px blueviolet;
+    width: 95%;
+    margin: 15px auto;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cartTable_head{
+    background-color: blueviolet;
+    margin: 8px auto;
+}
+
+.cartTable_row{
+    line-height: 56px;
+}
+
+.cartTable_checkOut{
+    text-align: center;
+    line-height: 1.5em;
+    width: 100%
+}

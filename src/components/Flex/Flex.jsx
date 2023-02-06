@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Flex(props){
+    const styleFlex = {display: "flex", width: "100%", justifyContent: "space-evenly", flexWrap: "wrap"}
     return (
-        <div style={{display: "flex"}}>{props.children}</div>
+        <div style={styleFlex}>{props.children}</div>
     )
 }
 

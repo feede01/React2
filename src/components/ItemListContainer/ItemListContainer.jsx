@@ -1,31 +1,34 @@
 import React, {useState} from 'react'
 import ItemList from "./ItemList";
-import { data } from '../../data/data';
+import { getItems, getItemsDescription } from '../../services/firebase';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import Loader from '../Loader/Loader';
 
-function ItemListContainer(props){
+function ItemListContainer(){
+    
     const [productos, setProductos] = useState([]);
-    const {descripcionId} = useParams()
+    const {descripcionId} = useParams();
+    const [isLoading, setIsLoading] = useState(true);
 
-    const promesa = new Promise((resolve, reject) => {
-
-        setTimeout(() => {
-            resolve(data)
-        }, 2000);
-    });
     useEffect(() =>{
         if (descripcionId === undefined){
-            promesa.then(setProductos(data));
+            getItems().then ((respuesta) => {setProductos(respuesta);
+            setIsLoading(false);
+        })
+
         }
         else {
-            promesa.then(setProductos(data.filter(item=> item.descripcion === descripcionId)));
+            getItemsDescription(descripcionId)
+            .then ( (respuestaFiltrada) => setProductos (respuestaFiltrada))
+            setIsLoading(false);
         }
-
-        
     }, [descripcionId]);
 
-    
+    if (isLoading){
+        return <Loader/>
+    }
+
     return (
         <div>
             <ItemList productos={productos}/>
