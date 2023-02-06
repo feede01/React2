@@ -5,9 +5,6 @@ import NavBar from "./components/NavBar/NavBar"
 import ItemDetailContainer from './components/ItemListContainer/ItemDetailContainer';
 import CartView from './components/Cart/CartViewer';
 import { CartContextProvider } from './components/Context/cartContext';
-//import { exportItemsToFirestore } from './services/firebase';
-
-//<button onClick={ exportItemsToFirestore }>Export</button>
 
 function App() {
   return (
