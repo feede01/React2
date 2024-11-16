@@ -2,7 +2,7 @@ const products = [
     {
        id: 1,
        stock: 3,
-       img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen"/>,
+       img: "https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen",
        nombre: "PC Gamer Armada | AMD Ryzen 3 4350G + 8GB (2x4GB) + Radeon VEGA",
        descripcion: "Gama baja",
        discount: 23,
@@ -11,7 +11,7 @@ const products = [
     {
         id: 2,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen"/>,
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen",
         nombre: "PC Gamer Armada | AMD Ryzen 5 4650G + 8GB (2x4GB) + Radeon VEGA",
         descripcion: "Gama baja",
         price: 99999
@@ -19,7 +19,7 @@ const products = [
      {
         id: 3,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen"/>,
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/QJ0OrQ5jwk99GeywUA27/imagen",
         nombre: "PC Gamer Armada | AMD Ryzen 5 5600G + 8GB (2x4GB) + Radeon VEGA",
         descripcion: "Gama baja",
         price: 109000
@@ -27,7 +27,7 @@ const products = [
      {
         id: 4,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/GRxegTQIYfWR6jQBazrk/imagen"/>,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
         nombre: "PC Gamer Armada | Intel Core I3 10100F + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         price: 159000
@@ -35,7 +35,7 @@ const products = [
      {
         id: 5,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/GRxegTQIYfWR6jQBazrk/imagen"/>,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
         nombre: "PC Gamer Armada | AMD Ryzen 3 4100 + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         discount: 30,
@@ -44,7 +44,7 @@ const products = [
      {
         id: 6,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/GRxegTQIYfWR6jQBazrk/imagen"/>,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
         nombre: "PC Gamer Armada | Intel Core I5 10400F + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         price: 185000
@@ -52,7 +52,7 @@ const products = [
      {
         id: 7,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/G6WmP7IzSjPgDmNhXDSU/imagen"/>,
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/IBUOZFOmoO5xGHpGo6fm/imagen",
         nombre: "PC Gamer Armada | Intel Core I5 10400F + 16GB (2x8GB) + RTX 3060 12Gb + 500GB",
         descripcion: "Gama alta",
         price: 255000
@@ -60,7 +60,7 @@ const products = [
      {
         id: 8,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/G6WmP7IzSjPgDmNhXDSU/imagen"/>,
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/IBUOZFOmoO5xGHpGo6fm/imagen",
         nombre: "PC Gamer Armada | Intel Core I5 10400F + 16GB (2x8GB) + RTX 3060 TI 8Gb + 500GB",
         descripcion: "Gama alta",
         price: 305000
@@ -68,7 +68,7 @@ const products = [
      {
         id: 9,
         stock: 3,
-        img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/G6WmP7IzSjPgDmNhXDSU/imagen"/>,
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/IBUOZFOmoO5xGHpGo6fm/imagen",
         nombre: "PC Gamer Armada | AMD Ryzen 5 5600X + 16GB (2x8GB) + RTX 3060 12Gb + 500GB NVME",
         descripcion: "Gama alta",
         discount: 15,
@@ -77,7 +77,7 @@ const products = [
      {
       id: 10,
       stock: 5,
-      img: <img src="https://s3-sa-east-1.amazonaws.com/saasargentina/YjZdnEDasiVBhqT6B6gQ/imagen"/>,
+      img: "https://s3-sa-east-1.amazonaws.com/saasargentina/aPi4KipvaWsnT3BzWnQc/imagen",
       nombre: "Cooler CPU Cooler Master Hyper 212 Turbo ARGB Intel/AMD (1x12cm)",
       descripcion: "Componentes",
       discount:10,

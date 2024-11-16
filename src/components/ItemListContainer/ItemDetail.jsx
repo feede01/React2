@@ -23,7 +23,11 @@ const ItemDetail = ({producto}) => {
         <div style = {{display: "flex"}}>
         <div className="card">
             <div className="card-img">
-                <div>{producto.img}</div>
+                <img 
+                    src={producto.img} 
+                    alt={producto.nombre} 
+                    style={{ width: '100%', height: 'auto' }} 
+                />
             </div>
             <div className="card-detail">
                 <h2>{producto.nombre}</h2>

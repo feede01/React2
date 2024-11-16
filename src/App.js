@@ -5,12 +5,14 @@ import NavBar from "./components/NavBar/NavBar"
 import ItemDetailContainer from './components/ItemListContainer/ItemDetailContainer';
 import CartView from './components/Cart/CartViewer';
 import { CartContextProvider } from './components/Context/cartContext';
+// import { exportItemsToFirestore } from './services/firebase';
 
 function App() {
   return (
     <>
     <CartContextProvider>
       <BrowserRouter>
+      {/*<button onClick={ exportItemsToFirestore}>Export</button> utilizar para exportar*/}
         <NavBar/>
           <Routes>
             <Route path='/' element={<ItemListContainer />} />
