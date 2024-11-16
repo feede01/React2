@@ -6,7 +6,8 @@
 ### Se utilizo lo visto en clase, ya sea de parte de ReactJS como HTML, CSS y JavaScript, adaptando la subida de los productos que simulan el e-commerce, a una base de datos utilizada con Firebase.
 
 # Realizado por Federico D'Ortenzio en el desarrollo y cursada de ReactJS en Coderhouse
-# Vistas del proyecto: [E-commerce React.docx](https://github.com/user-attachments/files/17787357/E-commerce.React.docx)
+# Vistas del proyecto: [E-commerce.React.pdf](https://github.com/user-attachments/files/17787361/E-commerce.React.pdf)
+
 
 
 # Getting Started with Create React App
