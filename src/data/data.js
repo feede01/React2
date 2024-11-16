@@ -27,7 +27,7 @@ const products = [
      {
         id: 4,
         stock: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/Vq0p7k37sIj6FKuymI5F/imagen",
         nombre: "PC Gamer Armada | Intel Core I3 10100F + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         price: 159000
@@ -35,7 +35,7 @@ const products = [
      {
         id: 5,
         stock: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/Vq0p7k37sIj6FKuymI5F/imagen",
         nombre: "PC Gamer Armada | AMD Ryzen 3 4100 + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         discount: 30,
@@ -44,7 +44,7 @@ const products = [
      {
         id: 6,
         stock: 3,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmoQgD32gtS_axbZBq9pHbmFmf4ZYlgDQHw&s",
+        img: "https://s3-sa-east-1.amazonaws.com/saasargentina/Vq0p7k37sIj6FKuymI5F/imagen",
         nombre: "PC Gamer Armada | Intel Core I5 10400F + 8GB + GTX 1660 6Gb Radeon VEGA",
         descripcion: "Gama media",
         price: 185000
